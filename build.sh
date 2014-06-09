@@ -5,11 +5,6 @@ cdate=`date +"%m_%d_%Y"`
 DATE=`date +"%Y%m%d"`
 rdir=`pwd`
 
-# Configuración ccache
-#export USE_CCACHE=1
-#export CCACHE_DIR=~/.ccache
-#prebuilts/misc/linux-x86/ccache/ccache -M 100G
-
 # Comienza a contar el tiempo
 res1=$(date +%s.%N)
 
